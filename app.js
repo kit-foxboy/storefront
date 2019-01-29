@@ -72,7 +72,6 @@ function purchasePrompt(productChoices) {
 
                     //prompt for next action
                      purchasePrompt(productChoices);
-
                 });
 
             } else {
@@ -81,9 +80,6 @@ function purchasePrompt(productChoices) {
                 console.log("Insufficent stock to complete order.");
                 purchasePrompt(productChoices);
             }
-
-            
         })
-
     });
 }
