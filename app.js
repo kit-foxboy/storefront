@@ -22,7 +22,7 @@ function main() {
 
         results.forEach(element => {
             productChoices.push({
-                name: element.id + ": " + element.product_name,
+                name: element.id + ": " + element.product_name + " $" + element.price.toFixed(2),
                 value: element.id
             });
         });
